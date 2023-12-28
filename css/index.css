@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #f1f1f1;
+    font-family: "Segoe UI", sans-serif;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 34rem;
+    width: 90%;
+}
+
+label{
+    display: block;
+}
+
+.card{
+    background-color: #171a1c;
+    border-radius: 14px;
+    color: #bebebe;
+    padding: 32px;
+    box-shadow: 0 40px 30px rgba(0, 0, 0, 0.3);
+
+}
+
+.header{
+    margin-bottom: 7rem;
+}
+
+.title{
+    color: #fff;
+    float: left;
+    font-size: 1.5rem;
+}
+
+.logo{
+    float: right;
+}
+
+.row{
+    margin-bottom: 1.5rem;
+}
+
+
+.content{
+    margin-bottom: 5rem;
+}
+
+.card-number{
+    font-size: 32px;
+}
+
+.card-expire{
+    float: left;
+}
+
+.card-expire-month{
+    width: 22%;
+}
+
+.card-expire-month{
+    float: left;
+}
+
+.card-cvv{
+    float: left;
+    margin-left: 20px !important;
+}
+
+.card-name{
+    float: left;
+    margin-left: 220px !important;
+}
+
+@media screen and (max-width: 920px) {
+    .card-name{
+        float: left;
+        margin-left: 129px !important;
+    }
+}
